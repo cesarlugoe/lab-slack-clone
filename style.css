@@ -1,0 +1,52 @@
+
+/* reset  */
+
+html {
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+body{
+   margin: 0;
+   padding: 0;
+}
+
+/* Layout */
+.container{
+   margin: 0 20px;
+}
+
+header.header{
+   overflow: hidden;
+   position: fixed;
+   padding: 10px 0;
+   width: 100%;
+   left: 0;
+   top: 0;
+   background-color: #FFF;
+   box-shadow: 0 1px 1px rgba(0,0,0,.15);
+}
+
+header .nav-bar{
+   width: 100%;
+}
+
+header .nav-bar ul{
+   display: none;
+}
+
+header .slack-logo{
+   float: left;
+   width: 110px;
+}
+
+header .burguer-menu-icon{
+   float: right;
+   width: 25px;
+   margin-top: 5px; 
+}
+
+.intro{
+   margin-top: 53px; 
+}

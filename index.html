@@ -3,107 +3,64 @@
     <head>
         <title>Slack Clone</title>
         <meta charset=“utf-8">
-        <meta name=“viewport” content=“width=device-width, initial-scale=1, shrink-to-fit=no”>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
-            <a href="#">Ir al contenido principal</a>
-            <img src="" alt="Slack Brand">
-            <ul>
-                <li>
-                    <span>¿Por qué Slack?</span>
-                    <small>Acerca del producto</small>
-                    <div>
-                        <a href="">Cómo funciona</a>
-                        <a href="">Seguridad</a>
-                        <a href="">Clientes</a>
-                        <a href="">Enterprise</a>
-                    </div>
-                
-                </li>
-                <li> 
-                    <span>Soluciones</span>
-                    <small>Slack para todos los equipos</small>
-                    <div>
-                        <a href="">Ingeniería</a>
-                        <a href="">Ventas</a>
-                        <a href="">TI</a>
-                        <a href="">Marketing</a>
-                        <a href="">Atención al cliente</a>
-                        <a href="">Recursos humanos</a>
-                    </div>
-
-                </li>
-                <li>
-                    <span>Recursos</span>
-                    <small>Ir más allá con Slack</small>
-                    <div>
-                        <a href="">Descargar</a>
-                        <a href="">Libros electrónicos e informaciones</a>
-                        <a href="">Blog</a>
-                        <a href="">Directorio de aplicaciones</a>
-                        <a href="">Centro de ayuda</a>
-                        <a href="">API</a>
-                    </div>
-                </li>
-                <li>
-                    <a>Precios</a>
-                </li>
-                <li>
-                    <button class="">Tus espacios de trabajo</button>
-                    <nav>
-                        <ul>
-                            <li> 
-                                <a href=""><img src="" alt=""></a>
-                                <span>Ironhack</span>
-                            </li>
-                        </ul>
-                        <a href="">Conectarse a otro espacio de trabajo</a>
-                        <a href="">Crear un espacio de trabajo</a>
-                    </nav>
-                </li>
-            </ul>
-        </nav>
-        <section class="hero-section">
+        <header class="header">
+            <div class="container">
+                <img class="slack-logo" src="./images/Slack_Technologies_Logo.png" alt="Slack logo">
+                <nav class="nav-bar">
+                    <img class="burguer-menu-icon" src="./images/menu.png" alt="menu-icon">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="intro container">
             <h1>Transforma tu forma de trabajar</h1>
-            <p></p>
-            <a></a>
+            <p>
+                Cuando tu equipo tiene que echar a andar un proyecto, contratar un empleado, subir unas líneas de código, revisar un contrato de ventas, finalizar el presupuesto del próximo año, medir una prueba A/B, planificar la apertura de tu próxima oficina o cualquier otra situación, siempre puedes contar con Slack. 
+            </p>
+            <a href="#" clas="link-button">Primeros pasos</a>
             <p></p>
             <img src="" alt="hero image">
         </section>  
-        <section>
-            <h2></h2>
-            <p></p>
-            <article class="features">
-                <img>
-                <p></p>
-                <p></p>
+        <section class="features container">
+            <h2>El eje que reúne a tu equipo y guía tu trabajo</h2>
+            <article class="feature">
+                <img src="./images/organized-convos.png" alt="">
+                <p>Canales</p>
+                <p>En Slack, los equipos se comunican a través de canales, que puedes organizar por proyectos, temas, departamentos o lo que tenga sentido para ti.</p>
             </article>
-            <article class="features">
-                <img>
-                <p></p>
-                <p></p>
+            <article class="feature">
+                <img src="./images/search-binoculars.png" alt="">
+                <p>Búsqueda</p>
+                <p>A través de la búsqueda, todo el mundo pueda acceder a las conversaciones en Slack, por lo que la información siempre está a un clic de distancia.</p>
             </article>
-            <article class="features">
-                <img>
-                <p></p>
-                <p></p>
+            <article class="feature">
+                <img src="./images/apps-gears.png" alt="">
+                <p>Integraciones</p>
+                <p>Slack es compatible con las herramientas y los servicios que usas a diario. Trae la información que necesitas o ejecuta tareas sin salir de Slack.</p>
             </article>
-            <article class="features">
-                <img>
-                <p></p>
-                <p></p>
+            <article class="feature">
+                <img src="./images/security-lock.png" alt="">
+                <p>Seguridad</p>
+                <p>En Slack nos tomamos en serio la seguridad. Ofrecemos medidas como la autenticación de dos factores y el inicio de sesión único para garantizar la seguridad de tus datos y proteger tu organización.</p>
             </article>
             <p><a href="#">Más información sobre las funciones de Slack</a></p>
         </section>
         <section class="news">
             <h2>Estás en buena compañía</h2>
-            <p></p>
+            <p>Slack transforma la forma de trabajar de miles de personas en todo el mundo.</p>
             <article class="card-news">
                 <a href="#">
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <h4></h4>
-                    <img src="" alt="img">
+                    <p>LVMH/Benefit Cosmetics</p>
+                    <h4>Embelleciendo el mundo con un guiño y una sonrisa (y Slack).</h4>
+                    <img src="./images/card_benefit.jpg" width="100%" alt="img">
                     <div class="car-news-footer">
 
                     </div>
@@ -111,9 +68,9 @@
             </article>
             <article class="card-news">
                 <a href="#">
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <h4></h4>
-                    <img src="" alt="img">
+                    <p>Centro de Innovación Johns Hopkins Sibley</p>
+                    <h4>La transformación de la atención al paciente gracias a Slack.</h4>
+                    <img src="./images/card_hopkins.jpg" width="100%" alt="img">
                     <div class="car-news-footer">
 
                     </div>
@@ -121,30 +78,41 @@
             </article>
         </section>
         <section class="brands">
-            <div class="brand"><img src="" alt="brand"></div>
-            <div class="brand"><img src="" alt="brand"></div>
-            <div class="brand"><img src="" alt="brand"></div>
-            <div class="brand"><img src="" alt="brand"></div>
+            <div class="brand"><img src="./images/ticketmaster.png" alt="brand"></div>
+            <div class="brand"><img src="./images/airbnb-alt.png" alt="brand"></div>
+            <div class="brand"><img src="./images/target-alt.png" alt="brand"></div>
+            <div class="brand"><img src="./images/capital_one.png" alt="brand"></div>
         </section>
         <section class="sign-up">
             <h3></h3>
             <a href="#">Consigue Slack para IOS</a>
         </section>
         <footer>
-            <img src="" alt="Slack Brand">
+            <img src="./images/Slack_Technologies_Logo.png" width="130" alt="Slack logo">
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
+           
+            
             <ul>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
